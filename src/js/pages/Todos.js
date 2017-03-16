@@ -29,6 +29,10 @@ export default class Featured extends React.Component {
     TodoActions.reloadTodos()
   }
 
+  getTodo(id) {
+    TodoActions.getTodo(6262627272)
+  }
+
   render() {
     const {todos} = this.state;
     const TodoComponents = todos.map((todo) => {
@@ -37,6 +41,7 @@ export default class Featured extends React.Component {
     return (
       <div>
         <button onClick={this.reloadTodos.bind(this)}>Reload!</button>
+        <button onClick={this.getTodo.bind(this)}>Get One Todo!</button>
         <h1>Todos</h1>
         <u1>{TodoComponents}</u1>
       </div>
