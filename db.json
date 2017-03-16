@@ -1,19 +1,13 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    "todos": [{
+            "id": 8484848484,
+            "text": "Go Shopping Again",
+            "complete": false
+        },
+        {
+            "id": 6262627272,
+            "text": "Hug Wife",
+            "complete": true
+        }
+    ]
 }
